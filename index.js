@@ -8,7 +8,7 @@ const port = 5000
 
 app.use(express.json())
 app.use(cors({
- origin: 'http://localhost:3000'
+ origin: 'http://localhost:3000/NoteMe'
 }))
 
 app.use("/api/auth", require("./routes/users"))
